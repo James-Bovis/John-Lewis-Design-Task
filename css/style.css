@@ -1,0 +1,190 @@
+body {
+	font-family: "Gill Sans","Gill Sans MT", Helvetica, Arial, sans-serif;
+	background-color: #f3f1ed;
+	padding: 20px 0px 100px 0px;
+}
+
+/* Grid Spacing */
+	.row {
+		margin-bottom: 20px;
+	}
+
+	.col-md-3 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.col-md-4 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.col-md-6 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.col-md-12 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+/* Typeography Styles */
+	h1 {
+		color: white;
+		text-align: center;
+		margin: 0px;
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 25px;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		color: #284e36;
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	h4 {
+		color: white;
+		font-size: 25px;
+
+	}
+
+	h4 span a {
+		text-decoration: underline;
+		float: right;
+		color: white;
+	}
+
+	h4 span a:hover {
+		color: #333333;
+		text-decoration: underline;
+	}
+
+
+	p {
+		font-size: 18px;
+		margin-top: 10px;
+		color: #333333;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #284e36;
+		text-decoration: none;
+	}
+
+	a:visited, a:focus {
+		color: white;
+	}
+
+
+/* Element Styles*/
+
+	/* Category Header */
+	.category-header {
+		background-color: #284e36;
+		padding: 15px 0px;
+	}
+
+	/* Scrolling banner dots*/
+	.carousel-indicators li {
+		background-color: white;
+		border: 0px;
+	}
+
+	.carousel-indicators .active {
+		background-color: #284e36;
+		border: 0px;
+	}
+
+	/* Brand Logos*/
+	.brand-logo img {
+		opacity: 0.5;
+		transition: 0.5s ease;
+	}
+
+	.brand-logo img:hover {
+		opacity: 1;
+	}
+
+	/* Click & Collect */
+	.collect-col {
+		background-color: #a0cac5;
+		padding: 15px;
+		text-align: center;
+	}
+
+		.collect-col p {
+			font-size: 14px;
+			margin-top: 10px;
+			color: white;
+			letter-spacing: 2px;
+		}
+
+		.collect-col h2 {
+			margin-top: 10px;
+			letter-spacing: 2px;
+			color: white;
+		}
+
+	/* Free Delivery*/
+	.delivery-col {
+		background-color: #d9c2d5;
+		padding: 15px;
+		text-align: center;
+	}
+
+		.delivery-col p {
+			font-size: 14px;
+			margin-top: 10px;
+			color: white;
+			letter-spacing: 2px;
+		}
+
+		.delivery-col h2 {
+			margin-top: 10px;
+			letter-spacing: 2px;
+			color: white;
+		}
+
+	/* Offer Strip*/
+	.offer-strip {
+		padding: 25px 50px;
+		background-image: url(../img/Offer-Strip.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	/* Inspiration Cards*/
+	.inspiration-card {
+		border: 3px solid #284e36;
+		background-color: white;
+	}
+
+	.inspiration-card img {
+		border-bottom: 3px solid #284e36;
+	}
+
+	.inspiration-card-description {
+		padding: 5px 15px;
+	}
+
+	/* Looking for more?*/
+	.looking-for-more h3 {
+		color: #284e36;
+		text-align: center;
+		padding: 15px 0px;
+		background-color: none;
+	}
+
+	
+	
+
